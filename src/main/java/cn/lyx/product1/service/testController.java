@@ -12,6 +12,7 @@ public class testController {
 @RequestMapping("test")
     User aa(Integer id){
     System.out.println (1 );
+    System.out.println (3 );
     return  userService.getUserById(id);
 }
 }
