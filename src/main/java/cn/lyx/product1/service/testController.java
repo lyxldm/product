@@ -11,7 +11,7 @@ public class testController {
     UserService userService;
 @RequestMapping("test")
     User aa(Integer id){
-
+    System.out.println (1 );
     return  userService.getUserById(id);
 }
 }
